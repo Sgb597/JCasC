@@ -1,0 +1,23 @@
+jenkins:
+  securityRealm:
+    github:
+      githubWebUri: "https://github.com"
+      githubApiUri: "https://api.github.com"
+      clientID: d1f89c833d2a9141e762
+      clientSecret: 44a83f10fdb828928606393315a8804e50d24f95
+      oauthScopes: "read:org,user:email"
+  authorizationStrategy:
+    globalMatrix:
+      permissions:
+        - "Overall/Administer:Sgb597"
+        - "Overall/Read:authenticated"
+  remotingSecurity:
+    enabled: true
+security:
+  queueItemAuthenticator:
+    authenticators:
+    - global:
+        strategy: triggeringUsersAuthorizationStrategy
+unclassified:
+  location:
+    url: http://localhost:8080/

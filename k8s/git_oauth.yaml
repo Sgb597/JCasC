@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: oauth
+type: Opaque
+data:
+  github_id: d1f89c833d2a9141e762
+  github_secret: 44a83f10fdb828928606393315a8804e50d24f95
