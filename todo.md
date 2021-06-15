@@ -1,6 +1,6 @@
 # JAE IaC To do List
 
-1. Learn about K8s secrets.
+1. Fix JCasC Volume issue. 
 
 2. Generate and save oauth secret in `.gh_token` file for K8s YAML file to reference.
 
